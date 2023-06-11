@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--link de boostrap
+    <!--link de boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!--link icons boostrap
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">-->
+    <!--link icons boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
 
@@ -23,6 +23,36 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">LA DIARIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="../index.html">INICIO</a></li>
+                                <li><a class="dropdown-item" href="productos.html">PRODUCTOS</a></li>
+                                <li><a class="dropdown-item" href="preguntasfrecuentes.html">PRGUNTAS
+                                        FRECUENTES</a></li>
+                                <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--
         <nav class="menu-navegador">
 
             <ul>
@@ -43,50 +73,79 @@
                 </li>
             </ul>
         </nav>
-
+-->
     </header>
     <main>
-        <h2>COMPLETA EL FORMULARIO</h2>
 
-        <form class="contacto" action="" method="post" enctype="text/plain">
-            <div>
-                <label class="texto" for="firstname">Nombre:</label>
-                <input type="text" placeholder="Ingrese su Nombre." name="firstname">
-            </div>
+        <section class="contacto">
+            <form class="contacto-form" action="" method="post" enctype="text/plain">
+                <h2>COMPLETA EL FORMULARIO</h2>
+                <div>
+                    <label class="texto" for="firstname">Nombre:</label>
+                    <input type="text" placeholder="Ingrese su Nombre." name="firstname">
+                </div>
 
-            <div>
-                <label class="texto" for="email">Email:</label>
-                <input type="text" placeholder="Ingrese su Email" name="email">
-            </div>
+                <div>
+                    <label class="texto" for="email">Email:</label>
+                    <input type="text" placeholder="Ingrese su Email" name="email">
+                </div>
 
-            <div>
-                <label for="telefono">Tel:</label>
-                <input type="tel" placeholder="Numero de telefono">
-            </div>
+                <div>
+                    <label for="telefono">Tel:</label>
+                    <input type="tel" placeholder="Numero de telefono">
+                </div>
 
-            <div>
-                <label for="mensaje">Deje su Mensaje:</label>
-                <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje."></textarea>
-            </div>
+                <div>
+                    <label for="mensaje">Deje su Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje."></textarea>
+                </div>
 
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+                <div>
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
             <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <h2>LOCALIZANOS</h2>
+                <iframe class="contacto-mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2061485.9450420025!2d-60.78334835427819!3d-31.940960767492108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1686351179321!5m2!1ses!2sar"" allowfullscreen="" loading="
+                    lazy"></iframe>
             </div>
-        </form>
+        </section>
     </main>
     <footer>
+        <div>
+            <a href="">
+                <i class="bi bi-geo-alt"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href=""><i class="bi bi-credit-card"></i></a>
+        </div>
+
+        <!--
         <div class="caja-footer">
             <p>Direccion</p>
             <p>Telefono de Contacto</p>
             <p>Redes Sociales</p>
             <p>Medios de pago</p>
+        </div>
+        -->
     </footer>
 
-    <!--script boostrap
+    <!--script boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
 
 </body>
 

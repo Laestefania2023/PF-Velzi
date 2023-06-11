@@ -21,6 +21,36 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">LA DIARIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="index.html">INICIO</a></li>
+                                <li><a class="dropdown-item" href="pages/productos.html">PRODUCTOS</a></li>
+                                <li><a class="dropdown-item" href="pages/preguntasfrecuentes.html">PRGUNTAS
+                                        FRECUENTES</a></li>
+                                <li><a class="dropdown-item" href="pages/contacto.html">CONTACTO</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--
         <nav class="menu-navegador">
 
             <ul>
@@ -42,6 +72,7 @@
             </ul>
 
         </nav>
+        -->
     </header>
     <main>
         <section class="grilla">
@@ -52,10 +83,10 @@
                 <img src="images/ellas2.jpg" alt="">
             </div>
             <div class="grilla__hijo g3">
+                <img src="images/mujer remeras.jpg" alt="">
                 <p> Tenemos para ofrecerte una amplia gama de productos para que puedas armar unos outfit super comodos
-                    y cancheros. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorem quis
-                    totam saepe commodi exercitationem, consequuntur quidem deleniti dignissimos tempora itaque
-                    molestiae placeat laborum sint aut unde eum quisquam reiciendis.</p>
+                    y cancheros. </p>
+
             </div>
             <div class="grilla__hijo g4">
                 <img src="images/remeras.jpg" alt="">
@@ -70,7 +101,7 @@
 
         <h2>DEJANOS TU OPINION</h2>
 
-        <form class="contacto" action="" method="post" enctype="text/plain">
+        <form class="opinion" action="" method="post" enctype="text/plain">
             <div>
                 <!--<label for="mensaje">Comentario:</label>-->
                 <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe aquí tu comentario"></textarea>
@@ -85,7 +116,7 @@
 
     </main>
     <footer>
-        <div class="row justify-content-center">
+        <div>
             <a href="">
                 <i class="bi bi-geo-alt"></i>
             </a>

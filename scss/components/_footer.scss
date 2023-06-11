@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer a i {
+    color:white;
+    font-size: 30px;
+}
+
+
+.caja-footer {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    font-size: 20px;
+}

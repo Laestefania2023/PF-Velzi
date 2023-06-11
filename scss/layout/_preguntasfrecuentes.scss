@@ -1,0 +1,16 @@
+.caja-pf {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.caja-pf img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}

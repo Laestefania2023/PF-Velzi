@@ -1,0 +1,25 @@
+.contacto {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.contacto-form div {
+    background-color: rgb(163, 142, 183);
+    /*width: 50%;
+    height: 80%;*/
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-mapa {
+    border: 2px solid black;
+    border-radius: 0%;
+}

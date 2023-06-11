@@ -1,0 +1,64 @@
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.card_body img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card_body {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 15px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.card_body div h3,
+.card_body div p,
+.card_body h3,
+.card_body p {
+    padding: 8px;
+    color: black;
+}
+
+.new {
+    background-color: blueviolet;
+    padding: 5px;
+    color: antiquewhite;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+.link {
+    font-size: 30px;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/*pseudoclases*/
+.link:hover {
+    background-color: rgb(219, 212, 219);
+    border-radius: 20%;
+    /* color:blueviolet;*/
+}
+
+.card_body:hover {
+    background-color: rgb(225, 252, 154);
+    transition: 0.6s;
+    font-size: 18px;
+}

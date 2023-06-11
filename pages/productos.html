@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--link de boostrap
+    <!--link de boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <!--link icons boostrap
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">-->
+    <!--link icons boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="../css/style.css">
 
@@ -20,6 +20,35 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">LA DIARIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="../index.html">INICIO</a></li>
+                                <li><a class="dropdown-item" href="productos.html">PRODUCTOS</a></li>
+                                <li><a class="dropdown-item" href="preguntasfrecuentes.html">PRGUNTAS
+                                        FRECUENTES</a></li>
+                                <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--
         <nav class="menu-navegador">
 
             <ul>
@@ -39,49 +68,51 @@
                     <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
-        </nav>
+        </nav>-->
     </header>
     <main>
         <a href="" class="link">MUJERES</a>
         <section class="cards">
             <div class="card_body">
-                <img src="../images/ellas.jpg" alt="">
-                <h3>ELLAS</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <img src="../images/mujer remeras.jpg" alt="">
+                <h3>REMERAS</h3>
+                <p>MANGAS CORTAS</p>
+                <p class="new">3 X 2</p>
+            </div>
+            <div class="card_body">
+                <img src="../images/buzos mujer.jpg" alt="">
+                <h3>ABRIGOS</h3>
+                <p>BUZOS Y CAMPERAS</p>
                 <p class="new">3 X 2</p>
             </div>
             <div class="card_body">
                 <img src="../images/ellas.jpg" alt="">
-                <h3>ELLAS</h3>
-                <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
-                <p class="new">3 X 2</p>
-            </div>
-            <div class="card_body">
-                <img src="../images/ellas.jpg" alt="">
-                <h3>ELLAS</h3>
+                <h3>JOGGINS Y CALZAS</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.
                 </p>
                 <p class="new">3 X 2</p>
             </div>
             <div class="card_body">
-                <img src="../images/ellas.jpg" alt="">
-                <h3>ELLAS</h3>
+                <img src="../images/ellas2.jpg" alt="">
+                <h3>ROPA DE NOCHE</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias./</p>
                 <p class="new">3 X 2</p>
             </div>
         </section>
         <a href="" class="link">HOMBRES</a>
         <section class="cards">
+            <a href="" class="card_body">
+                <div>
+                    <img src="../images/hombre remeras.jpg" alt="">
+                    <h3>REMERAS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                    <p class="new">LO NUEVO</p>
+                </div>
+            </a>
             <div class="card_body">
                 <img src="../images/ellos.jpg" alt="">
-                <h3>ELLOS</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
-                <p class="new">LO NUEVO</p>
-            </div>
-            <div class="card_body">
-                <img src="../images/ellos.jpg" alt="">
-                <h3>ELLOS</h3>
-                <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <h3>ABRIGOS</h3>
+                <p>BUZOS Y CAMPERAS</p>
             </div>
             <div class="card_body">
                 <img src="../images/ellos.jpg" alt="">
@@ -99,18 +130,18 @@
         <a href="" class="link">ACCESORIOS</a>
         <section class="cards">
             <div class="card_body">
-                <img src="../images/accesorios.jpg" alt="">
-                <h3>ACCESORIOS</h3>
+                <img src="../images/gorra.jpg" alt="">
+                <h3>GORRAS</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
             </div>
             <div class="card_body">
-                <img src="../images/accesorios.jpg" alt="">
-                <h3>ACCESORIOS</h3>
+                <img src="../images/mochila.jpg" alt="">
+                <h3>MOCHILAS Y BOLSOS</h3>
                 <p>LLorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
             </div>
             <div class="card_body">
-                <img src="../images/accesorios.jpg" alt="">
-                <h3>ACCESORIOS</h3>
+                <img src="../images/aromas.jpg" alt="">
+                <h3>AROMAS RELAXg</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.
                 </p>
             </div>
@@ -124,16 +155,35 @@
 
     </main>
     <footer>
+
+        <div>
+            <a href="">
+                <i class="bi bi-geo-alt"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href=""><i class="bi bi-credit-card"></i></a>
+        </div>
+
+        <!--
         <div class="caja-footer">
             <p>Direccion</p>
             <p>Telefono de Contacto</p>
             <p>Redes Sociales</p>
             <p>Medios de pago</p>
+        </div>-->
     </footer>
-    <!--script boostrap
+    <!--script boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>-->
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
